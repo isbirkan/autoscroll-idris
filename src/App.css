@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  min-height: 100vh;
+  overflow: hidden; /* Prevent unwanted scrollbars */
+}
+
+h1 {
+  position: sticky; /* Makes the title sticky */
+  top: 0; /* Stick to the top of the viewport */
+  z-index: 10; /* Ensure it stays above the GIFs */
+  margin: 0; /* Remove default margin for proper alignment */
+  padding: 10px; /* Add padding for visual spacing */
+  background-color: #000; /* Background color to blend with app background */
+  color: #fff; /* Text color */
+  font-size: 2rem; /* Adjust font size for better readability */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Add subtle shadow for emphasis */
+}
